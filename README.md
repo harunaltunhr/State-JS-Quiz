@@ -88,7 +88,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/fmkarakus/array-of-numbers/blob/master/LICENSE) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/harunaltunhr/State-JS-Quiz/blob/master/LICENSE) for more information.
 
 <!-- CONTACT -->
 
