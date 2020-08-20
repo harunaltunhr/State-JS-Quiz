@@ -45,7 +45,7 @@ This project aims to using state management while  practicing basic JavaScript c
 The objective of this project is to build a simple html,CSS and JavaScript  quiz page  In this project we aimed to improve our understanding of
 
 * state management
-* Log,render data concepts
+* Log and render data concepts
 * DOM elements
 * reading and writing basic data from the DOM
 * event listeners
