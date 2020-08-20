@@ -66,18 +66,17 @@ Steps:
 
 *assigned to Ogla*
 
-- Add-Question is developed on a branch called ` Add-Question`
+- Add-Question is developed on a branch called `Add-Question`
 
-- On this step user can read the questions and select the answer  .
-This function also display all sorted  questions for user.
+- On this step user can read the questions and select the answer.
 
 
     
 ### JS
 
 - The new repo branch `Add-Question` was generated perspectively. 
-- The core logic functions were developed
-- An appropriate handlers were developed to use the functions interactively.
+- The questions with the variants of answers was added like as array with objects.
+- The accuracy of answers (correct or wrong) was defined with pairs key-value `correct: true/ false`. 
 - PR was raised, reviewed by two assigned reviewers and the branch
   was merged to the `master` branch.
 
