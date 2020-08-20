@@ -38,7 +38,7 @@
 
 ## About The Project
 
-![stat-js-quiz](//)
+![stat-js-quiz](https://github.com/harunaltunhr/State-JS-Quiz/blob/master/image/screenshot.PNG?raw=true)
 
 This project aims to using state management while  practicing basic JavaScript concepts. For the purpose of this project, the 4 junior developers were partnered together to work on the project.
 
