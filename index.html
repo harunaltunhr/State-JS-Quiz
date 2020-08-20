@@ -2,8 +2,8 @@
 <html lang='en'>
 
 <head>
-  <meta charset='utf8'>
-  <title>your project name</title>
+  <meta charset="UTF-8">
+  <title>JS-Quiz</title>
 
   <link href="./style.css" rel="stylesheet" />
 
@@ -24,6 +24,31 @@
 </head>
 
 <body>
+
+  <div class="container">
+    <div id="time-control" class="hide">Timer</div>
+
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+    </div>
+
+    <div class="controls">
+      <div id="user-name">
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name">
+        </form>
+      </div>
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+  </div>
 
 
 

@@ -1,0 +1,101 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: Gotham Rounded;
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    src: url(./gotham-rounded/GothamRoundedMedium_21022.ttf);
+}
+
+:root {
+    --color-neutral: steelBlue ;
+    --color-wrong: IndianRed;
+    --color-correct: green;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-neutral);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+body.correct {
+    background-color: var(--color-correct);  
+}
+
+body.wrong {
+    background-color: var(--color-wrong);
+}
+
+.container {
+    margin-top: 200px;
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    font-size: 1.2rem;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.btn {
+    background-color: dodgerblue ;
+    border: 1px solid var(--color-neutral);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+.btn.correct {
+    background-color: var(--color-correct);
+}
+
+.btn.wrong {
+    background-color: var(--color-wrong);
+}
+
+.start-btn, .next-btn {
+    font-size: 1.3rem;
+    padding: 10px 15px;
+}
+
+.controls {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+#time-control {
+    margin-bottom: 20px;
+    text-align: center;
+    color: brown ;
+}
+
+/* .hide {
+    display: none;
+} */
+
+
+
