@@ -7,6 +7,7 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 const timer = document.getElementById('time-control')
+const nameForm = document.getElementById('name-form');
 let userNameEl= document.getElementById('nameplace');
 let shuffledQuestions, currentQuestionIndex
 
