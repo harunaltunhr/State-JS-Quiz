@@ -21,6 +21,16 @@
   <script src='./src/handlers/starter.js'></script>
   <script src='./src/listeners/starter.js'></script>
   
+  <script>
+    let displayUsername = function() {
+    
+    let username = document.getElementById('username').value
+    
+    if (username !== '') {
+    
+      document.getElementById('message').innerHTML = 'Hello '+username+'!' } };
+    </script>
+  
 
 
 </head>
@@ -43,8 +53,9 @@
     <div class="controls">
       <div id="user-name">
         <form>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" placeholder="Enter your name">
+          <div id="message"></dive>
+          <input type="text" name="username" id="username" placeholder="Enter your name">
+          
         </form>
       </div>
       <button id="start-btn" class="start-btn btn">Start</button>
@@ -55,7 +66,9 @@
 
 
   <!-- load listeners -->
-
+<script>
+  document.getElementById('username').addEventListener('keyup', displayUsername);
+</script>
 
   <!-- Leave this here, it renders the review buttons
       write your code above this script tag  -->
