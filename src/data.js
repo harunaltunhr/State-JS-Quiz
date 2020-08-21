@@ -118,4 +118,4 @@ const questions =[
 /* This variable for remaining-time. 
 When Test start it start to decrease*/
 
-let seconds = 0;
+let seconds = 300;
