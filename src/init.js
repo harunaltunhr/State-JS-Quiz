@@ -70,3 +70,19 @@ const noTime= timer.innerHTML;
       
   }
 }
+
+function finalLog() {
+  let testTime = 300-timer.innerHTML;
+  if(Boolean(testTime)){
+    testTime = testTime
+  }
+  else{
+    testTime = 300
+  }
+  const finalLog = {
+    action: `Test Finished` ,
+    totalTime: `${testTime} seconds`,  
+  }
+  log.push(finalLog);
+  finalLog.state= deepClone(state);  
+}
