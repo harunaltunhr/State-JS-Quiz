@@ -97,5 +97,9 @@ body.wrong {
     display: none;
 }
 
+.unselected {
+    opacity: 50%;
+}
+
 
 

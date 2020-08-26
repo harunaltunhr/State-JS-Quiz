@@ -51,6 +51,10 @@ function selectAnswer(e) {
   setStatusClass(document.body, correct);
   Array.from(answerButtonsElement.children).forEach((button) => {
     setStatusClass(button, button.dataset.correct);
+    if (button !== e.target){
+        button.setAttribute('disabled', 'true');
+        button.classList.add('unselected');  
+    }
   });
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove("hide");
